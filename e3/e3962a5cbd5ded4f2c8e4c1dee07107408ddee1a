@@ -1,0 +1,246 @@
+
+.showcase-content {
+  margin-top: 4em;
+  margin-bottom: 10em;
+}
+
+.dot1 {
+  position: absolute;
+  right: 10%;
+  top: 63%;
+}
+
+.dot2 {
+  position: absolute;
+  left: 10%;
+  top: 18%;
+}
+
+@media screen and (max-width: 1200px) {
+  .dot1 {
+    display: none;
+  }
+  .dot2 {
+    display: none;
+  }
+}
+
+.line {
+  width: 60px;
+  height: 5px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+.profile-section--image {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#upload-btn {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.wrapper {
+  position: relative;
+  border: 2px solid #dee2e6;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wrapper .image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  color: #dee2e6;
+}
+
+.wrapper .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.add-btn {
+  position: relative;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  padding: 8px;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.add-btn:hover span {
+  text-decoration: underline;
+}
+
+.quill {
+  border: 1px solid  #dee2e6;
+  border-radius: 5px;
+}
+
+.quill .ql-toolbar {
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid  #dee2e6;
+  padding: 10px 20px 10px 20px !important;
+}
+
+.quill .ql-toolbar button {
+  border: none;
+}
+
+.quill .ql-toolbar button:hover {
+  color: #17a2b8;
+}
+
+.quill .ql-toolbar .ql-formats {
+  border-right: 2px solid #dee2e6;
+}
+
+.quill .ql-editor {
+  height: 18vh;
+  overflow-y: auto;
+}
+
+.tip .btn-outline-info {
+  transition: 0.3s;
+}
+
+.tip .btn-outline-info:hover {
+  color: #FFBE34;
+  background-color: #ffffff;
+  border-color: #FFBE34;
+}
+
+.delete .btn-outline-info {
+  transition: 0.3s;
+}
+
+.delete .btn-outline-info:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+
+label.add-photo {
+  cursor: pointer;
+}
+
+.popup .overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+}
+
+.popup .tip-content {
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #f8f9fa;
+  width: 550px;
+  block-size: fit-content;
+  z-index: 2;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.popup .close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.popup .close-btn:hover {
+  color: #000000;
+}
+
+.popup.show .overlay {
+  display: block;
+}
+
+.popup.show .tip-content {
+  transition: all 0.3s ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.dis-hidden {
+  overflow: hidden;
+  height: 0;
+  transition: 0.3s;
+}
+
+.dis-block {
+  height: 280px;
+}
+
+.w-90 {
+  width: 80%;
+}
+
+.h-info:hover {
+  color: #17a2a8;
+}
+
+.box {
+  opacity: 0;
+  transition: all 2s;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+.accordion-item--header {
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.accordion-item--header.active .shown {
+  transform: rotate(180deg);
+}
+
+.shown {
+  transition: transform 0.2s ease-in;
+}
+
+.accordion-item--body {
+  display: none;
+}
+
+.accordion-item--header.active + .accordion-item--body {
+  display: block;
+}
+

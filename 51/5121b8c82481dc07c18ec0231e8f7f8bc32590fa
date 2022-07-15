@@ -1,0 +1,105 @@
+
+.o_main_navbar .o_menu_apps #apps_menu {
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 100%;
+  border-radius: 0;
+  z-index: 1050;
+  background: transparent url(/openeducat_backend_theme/static/src/img/application-switcher-bg.jpg) no-repeat scroll center center;
+  overflow: auto;
+  -webkit-flex-flow: column nowrap; flex-flow: column nowrap;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_app_search {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-box-flex: 0; -webkit-flex: 0 0 auto; flex: 0 0 auto;
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+  padding: 10px 0;
+  height: 64px;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_app_search .o_search_box {
+  -webkit-box-flex: 1; -webkit-flex: 1 1 0; flex: 1 1 0;
+  border: none;
+  border-bottom: 1px solid #c2c1c1;
+  color: #424242;
+  background-color: transparent;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_app_search .o_search_box:focus {
+  border-bottom: 2px solid #424242;
+  outline: none;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_app_search .o_search_icon {
+  padding: 0 10px;
+  color: #424242;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_apps_container {
+  max-width: 750px;
+  width: 100%;
+  margin: auto;
+  -webkit-box-flex: 0; -webkit-flex: 0 0 auto; flex: 0 0 auto;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_apps_container .o_app {
+  float: left;
+  width: calc(100%/6);
+  cursor: pointer;
+  text-align: center;
+  height: 155px;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_apps_container .o_app .o_app_name {
+  margin: 10px 5px;
+  font-weight: bold;
+  color: #424242;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_apps_container .o_app .o_app_icon {
+  margin: 18px 0 auto;
+  max-height: 80px;
+  border-radius: 0px;
+}
+
+@media (max-width: 576px) {
+  .o_main_navbar .o_menu_apps #apps_menu .o_apps_container .o_app {
+    width: calc(100%/3);
+  }
+}
+
+@media (max-width: 0) {
+  .o_main_navbar .o_menu_apps #apps_menu .o_apps_container .o_app {
+    width: calc(100%/3);
+  }
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_apps_container .o_app:hover, .o_main_navbar .o_menu_apps #apps_menu .o_apps_container .o_app:active {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(72, 73, 121, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(72, 73, 121, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(72, 73, 121, 0.3);
+  border-radius: 5px;
+}
+
+.o_main_navbar .o_menu_apps #apps_menu .o_brand_logo {
+  -webkit-box-flex: 1; -webkit-flex: 1 0 auto; flex: 1 0 auto;
+  align-items: flex-end;
+  margin: auto;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+}
+
+.o_main_navbar ul.o_menu_systray .dropdown-menu {
+  z-index: 1052;
+}
+

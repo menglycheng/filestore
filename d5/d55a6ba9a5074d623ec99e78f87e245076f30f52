@@ -1,0 +1,171 @@
+
+.o_form_view .o_field_image.oe_avatar {
+  padding: 0 1%;
+}
+
+.o_form_view .o_form_sheet_bg {
+  background: #8f8e8e;
+}
+
+.o_form_view .o_form_sheet_bg > .o_form_sheet {
+  max-width: 1172px;
+  min-width: 0;
+}
+
+.o_form_view .o_form_sheet_bg > .o_form_sheet .oe_title {
+  width: auto;
+}
+
+.o_form_view .o_form_sheet_bg > .o_form_sheet .oe_button_box {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 0) {
+  .o_form_view .o_form_sheet_bg > .o_form_sheet {
+    margin: 24px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6 tr, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group tr {
+    display: -webkit-box; display: -webkit-flex; display: flex;
+    -webkit-flex-flow: row wrap; flex-flow: row wrap;
+  }
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6 tr td, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group tr td {
+    -webkit-box-flex: 1; -webkit-flex: 1 0 auto; flex: 1 0 auto;
+    max-width: 100%;
+    width: auto !important;
+    display: block;
+  }
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6 tr td.o_td_label, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group tr td.o_td_label {
+    width: 90% !important;
+    border: none;
+  }
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6 tr td .o_input_dropdown, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group tr td .o_input_dropdown {
+    width: auto;
+    max-width: 100%;
+  }
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6 tr td .o_field_widget.o_field_many2one.o_with_button, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group tr td .o_field_widget.o_field_many2one.o_with_button {
+    display: -webkit-box; display: -webkit-flex; display: flex;
+  }
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6 tr .o_td_label + td, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group tr .o_td_label + td {
+    padding: 3px 5px 3px 5px;
+  }
+  .o_form_view .o_form_sheet_bg > .o_form_sheet .o_group_col_6 tr .o_field_widget.o_text_overflow, .o_form_view .o_form_sheet_bg > .o_form_sheet .o_inner_group tr .o_field_widget.o_text_overflow {
+    width: auto !important;
+  }
+}
+
+.o_form_view .oe_button_box {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.o_form_view .oe_button_box .oe_stat_button .o_button_icon {
+  color: #424242;
+}
+
+.o_form_view .oe_chatter {
+  background-color: #ffffff;
+  min-width: unset;
+  max-width: 1024px;
+}
+
+.o_form_view .oe_chatter .o_mail_activity .o_thread_date:hover {
+  color: inherit;
+}
+
+@media (max-width: 576px) {
+  .modal-dialog .modal-content .o_form_view .o_group_col_6, .modal-dialog .modal-content .o_form_view .o_inner_group {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-dialog .modal-content .o_form_view .o_group_col_6 tr, .modal-dialog .modal-content .o_form_view .o_inner_group tr {
+    display: -webkit-box; display: -webkit-flex; display: flex;
+    -webkit-flex-flow: row wrap; flex-flow: row wrap;
+  }
+  .modal-dialog .modal-content .o_form_view .o_group_col_6 tr td, .modal-dialog .modal-content .o_form_view .o_inner_group tr td {
+    -webkit-box-flex: 1; -webkit-flex: 1 0 auto; flex: 1 0 auto;
+    max-width: 100%;
+    width: auto !important;
+    display: block;
+  }
+  .modal-dialog .modal-content .o_form_view .o_group_col_6 tr td.o_td_label, .modal-dialog .modal-content .o_form_view .o_inner_group tr td.o_td_label {
+    width: 90% !important;
+    border: none;
+  }
+  .modal-dialog .modal-content .o_form_view .o_group_col_6 tr td .o_input_dropdown, .modal-dialog .modal-content .o_form_view .o_inner_group tr td .o_input_dropdown {
+    width: auto;
+    max-width: 100%;
+  }
+  .modal-dialog .modal-content .o_form_view .o_group_col_6 tr td .o_field_widget.o_field_many2one.o_with_button, .modal-dialog .modal-content .o_form_view .o_inner_group tr td .o_field_widget.o_field_many2one.o_with_button {
+    display: -webkit-box; display: -webkit-flex; display: flex;
+  }
+  .modal-dialog .modal-content .o_form_view .o_group_col_6 tr .o_td_label + td, .modal-dialog .modal-content .o_form_view .o_inner_group tr .o_td_label + td {
+    padding: 3px 5px 3px 5px;
+  }
+  .modal-dialog .modal-content .o_form_view .o_group_col_6 tr .o_field_widget.o_text_overflow, .modal-dialog .modal-content .o_form_view .o_inner_group tr .o_field_widget.o_text_overflow {
+    width: auto !important;
+  }
+}
+
+.o_form_view .nav-tabs > li > a {
+  border: none;
+  margin-right: 0;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #666;
+  -webkit-box-shadow: inset 0 -1px 0 #bbb;
+  box-shadow: inset 0 -1px 0 #bbb;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.o_form_view .nav-tabs > li > a:hover {
+  -webkit-box-shadow: inset 0 -2px 0 #8b607d !important;
+  box-shadow: inset 0 -2px 0 #8b607d !important;
+  color: #424242 !important;
+}
+
+.o_form_view .nav-tabs > li.nav-item > a, .o_form_view .nav-tabs > li.nav-item > a:focus {
+  border: none;
+  -webkit-box-shadow: inset 0 -2px 0 #424242 !important;
+  box-shadow: inset 0 -2px 0 #424242 !important;
+  color: #424242 !important;
+}
+
+.o_form_view .nav-tabs > li.nav-item > a:hover, .o_form_view .nav-tabs > li.nav-item > a:focus:hover {
+  border: none !important;
+  color: #8b607d !important;
+  box-shadow: inset 0 -2px 0 #8b607d !important;
+}
+
+.o_form_view .nav-tabs > li.nav-item > a.active {
+  border-top: none !important;
+  -webkit-box-shadow: inset 0 -2px 0 #8b607d !important;
+  box-shadow: inset 0 -2px 0 #8b607d !important;
+  color: #8b607d !important;
+}
+
+.o_form_view .nav-tabs > li {
+  margin-top: 2px;
+}
+
+.custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  background-color: rgba(66, 66, 66, 0.1);
+}
+

@@ -1,0 +1,119 @@
+
+#wrapwrap.o_portal {
+  background-color: #fff !important;
+}
+
+#student-profile #fees_detais a button {
+  padding: 5px 10px;
+  background-color: #ffb606;
+  color: #002147 !important;
+  border: 2px solid #ffb606;
+  font-weight: 600;
+}
+
+#student-profile .tab-content-box {
+  background: #fff;
+  padding: 30px 30px;
+  box-shadow: 0 8px 6px -6px #a7a7a7;
+  -webkit-box-shadow: 0 8px 6px -6px #a7a7a7;
+  -moz-box-shadow: 0 8px 6px -6px #a7a7a7;
+  border: 1px solid #e7e7e7;
+}
+
+#student-profile .nav a {
+  border-radius: 0 !important;
+  width: 100%;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: 1px;
+}
+
+#student-profile .nav a h5 {
+  font-size: 16px;
+}
+
+#student-profile .nav li {
+  width: 100%;
+}
+
+#student-profile .nav-pills .nav-link {
+  border-bottom: 1px solid #fff;
+}
+
+#student-profile a.active,
+#student-profile .a:hover,
+#student-profile .a:focus {
+  border-left: 4px solid #448AFF !important;
+  padding: 10px;
+}
+
+#student-profile .tab-content .profile-fields {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+#student-profile .tab-content .profile-fields td {
+  border: 1px solid #e7e7e7;
+  padding: 15px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#student-profile .tab-content .profile-fields .label {
+  width: 30%;
+  font-weight: bold;
+}
+
+#student-profile .tab-content .table-condensed thead {
+  color: #448AFF;
+}
+
+#student-profile .tab-content .table-condensed td, #student-profile .tab-content .table-condensed th {
+  border: 1px solid #d0d0d0;
+  vertical-align: middle;
+}
+
+#student-profile .tab-content .table-condensed .numspan {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  #student-profile .tab-content .table-condensed {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+#student-profile #personal_info strong {
+  font-size: 14px;
+}
+
+#student-profile #personal_info p {
+  font-size: 16px;
+}
+
+#student-profile #personal_info hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+#student-profile #discipline a button {
+  padding: 5px 10px;
+  background-color: #ffb606;
+  color: #002147 !important;
+  border: 2px solid #ffb606;
+  font-weight: 600;
+}
+
+#student-profile #skills a button {
+  padding: 5px 10px;
+  background-color: #ffb606;
+  color: #002147 !important;
+  border: 2px solid #ffb606;
+  font-weight: 600;
+}
+
